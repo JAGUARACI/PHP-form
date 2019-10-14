@@ -2,7 +2,7 @@
 $categorias = [];
 $categorias[] = 'infantil';
 $categorias[] = 'adolescente';
-$categorias[] = 'adultos';
+$categorias[] = 'adulto';
 $categorias[] = 'idoso';
 
 $nome = $_POST['nome'];
