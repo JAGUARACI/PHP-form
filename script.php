@@ -1,4 +1,12 @@
 <?php
+
+/**
+ * Created by phpstorm.
+ * User: Jaguaraci
+ * Date: 14/10/2019
+ * Time: 20:52
+ */
+
 $categorias = [];
 $categorias[] = 'infantil';
 $categorias[] = 'adolescente';
