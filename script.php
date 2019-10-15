@@ -26,6 +26,11 @@ if(strlen($nome) < 3)
 return;
 }
 
+if(strlen($nome) > 40)
+{echo 'O nome é muito extenso';
+return;
+}
+
 if($idade >= 6 && $idade <=12)
 
 {for($i = 0; $i <= count ($categorias); $i++)
