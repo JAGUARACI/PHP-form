@@ -7,6 +7,8 @@
  * Time: 20:52
  */
 
+ session_start();
+
 $categorias = [];
 $categorias[] = 'infantil';
 $categorias[] = 'adolescente';
@@ -17,8 +19,8 @@ $nome = $_POST['nome'];
 $idade = $_POST['idade'];
 
 if(empty($nome))
-{echo 'O nome não pode ser vazio';
-Return;
+{$_SESSION['mensagem-de-erro'] = 'O nome não pode ser vazio por favor preencha-o novamente';
+header(string'location: index.php');
 }
 
 if(strlen($nome) < 3)
