@@ -31,7 +31,7 @@ else if($idade >= 13 && $idade <=18)
 echo "O nadador",$nome, "compete na categoria adolescente";
 }}
 
-else if($idade >= 19)
+else if($idade >= 19 && $idade <=100)
 
 {for($i = 0; $i <= count($categorias); $i++)
 {if($categorias[$i] == 'adulto')
