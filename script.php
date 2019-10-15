@@ -21,7 +21,12 @@ if(empty($nome))
 Return;
 }
 
-If($idade >= 6 && $idade <=12)
+if(strlen($nome) < 3)
+{echo 'O nome deve conter mais de 3 caracteres';
+return;
+}
+
+if($idade >= 6 && $idade <=12)
 
 {for($i = 0; $i <= count ($categorias); $i++)
 
